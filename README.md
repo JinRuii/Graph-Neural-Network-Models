@@ -31,17 +31,20 @@ The model relies on two main input files located in the `./data/H8-16/` director
    cd Graph-Neural-Network-Models
 
 ## Key Libraries and Version Requirements
-Python: 3.8+
-PyTorch (CPU version): 1.10.0
-torch_geometric: 2.0.4
-torch_scatter: 2.0.9
-torch_sparse: 0.6.12
-torch_cluster: 1.5.9
-torch_spline_conv: 1.2.1
-scikit-learn: 0.24.2
-pandas: 1.3.3
-numpy: 1.21.2
-Note: This project uses the CPU version of PyTorch for compatibility with systems without GPU support. If you have a compatible GPU and want to use CUDA, please adjust the installation command to install the appropriate version of PyTorch.
+
+- **Python**: 3.8+
+- **PyTorch (CPU version)**: 1.10.0
+- **torch_geometric**: 2.0.4
+- **torch_scatter**: 2.0.9
+- **torch_sparse**: 0.6.12
+- **torch_cluster**: 1.5.9
+- **torch_spline_conv**: 1.2.1
+- **scikit-learn**: 0.24.2
+- **pandas**: 1.3.3
+- **numpy**: 1.21.2
+
+> **Note**: This project uses the **CPU version** of PyTorch for compatibility with systems without GPU support. If you have a compatible GPU and want to use CUDA, please adjust the installation command to install the appropriate version of PyTorch.
+
 
 ## Installation Instructions
 
