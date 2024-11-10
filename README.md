@@ -18,10 +18,10 @@ The provided GraphSAGE model can be applied to various urban planning tasks, suc
 
 ## Dataset Structure
 
-The model relies on two main input files located in the `./data/H8-16/` directory:
+To run this project, you need two input files containing node features and edge definitions. The default files are:
 
-1. **H8-16_variables.csv** - Contains feature values for each node.
-2. **H8-16_edges.csv** - Defines the undirected edges between nodes.
+- `H8-16_variables.csv`: Contains feature values for each node.
+- `H8-16_edges.csv`: Defines the undirected edges between nodes.
 
 ### Using Sample Data
 
