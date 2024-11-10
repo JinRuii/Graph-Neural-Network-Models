@@ -1,7 +1,7 @@
 # Graph Neural Network Models 🌐🏙️
 
 ![Python](https://img.shields.io/badge/python-v3.8-blue.svg)
-![PyTorch](https://img.shields.io/badge/pytorch-v1.10.0-%23E34F26.svg)
+![PyTorch](https://img.shields.io/badge/pytorch-v2.4.1-%23E34F26.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## Overview
@@ -42,7 +42,7 @@ These sample files allow you to run the model without needing the full dataset. 
 ## Key Libraries and Version Requirements
 
 - **Python**: 3.8+
-- **PyTorch (CPU version)**: 1.10.0
+- **PyTorch (CPU version)**: 2.4.1
 - **torch_geometric**: 2.0.4
 - **torch_scatter**: 2.0.9
 - **torch_sparse**: 0.6.12
