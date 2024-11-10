@@ -55,9 +55,9 @@ To install the required packages with specified versions, follow these steps:
 
    pip install --upgrade pip setuptools
 
-pip install torch==1.10.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
-pip install torch_geometric==2.0.4
-pip install torch_scatter==2.0.9 torch_sparse==0.6.12 torch_cluster==1.5.9 torch_spline_conv==1.2.1
-pip install scikit-learn==0.24.2 pandas==1.3.3 numpy==1.21.2
+   pip install torch==1.10.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+   pip install torch_geometric==2.0.4
+   pip install torch_scatter==2.0.9 torch_sparse==0.6.12 torch_cluster==1.5.9 torch_spline_conv==1.2.1
+   pip install scikit-learn==0.24.2 pandas==1.3.3 numpy==1.21.2
 
 
