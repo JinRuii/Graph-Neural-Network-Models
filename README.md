@@ -29,3 +29,35 @@ The model relies on two main input files located in the `./data/H8-16/` director
    ```bash
    git clone https://github.com/JinRuii/Graph-Neural-Network-Models.git
    cd Graph-Neural-Network-Models
+
+## Key Libraries and Version Requirements
+Python: 3.8+
+PyTorch (CPU version): 1.10.0
+torch_geometric: 2.0.4
+torch_scatter: 2.0.9
+torch_sparse: 0.6.12
+torch_cluster: 1.5.9
+torch_spline_conv: 1.2.1
+scikit-learn: 0.24.2
+pandas: 1.3.3
+numpy: 1.21.2
+Note: This project uses the CPU version of PyTorch for compatibility with systems without GPU support. If you have a compatible GPU and want to use CUDA, please adjust the installation command to install the appropriate version of PyTorch.
+
+## Installation Instructions
+
+To install the required packages with specified versions, follow these steps:
+
+1. **Create and Activate a Virtual Environment** (recommended):
+   ```bash
+   python3 -m venv gnn_env
+   source gnn_env/bin/activate  # For Linux/macOS
+   gnn_env\Scripts\activate  # For Windows
+
+   pip install --upgrade pip setuptools
+
+pip install torch==1.10.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+pip install torch_geometric==2.0.4
+pip install torch_scatter==2.0.9 torch_sparse==0.6.12 torch_cluster==1.5.9 torch_spline_conv==1.2.1
+pip install scikit-learn==0.24.2 pandas==1.3.3 numpy==1.21.2
+
+
