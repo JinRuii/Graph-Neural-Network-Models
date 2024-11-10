@@ -23,6 +23,15 @@ The model relies on two main input files located in the `./data/H8-16/` director
 1. **H8-16_variables.csv** - Contains feature values for each node.
 2. **H8-16_edges.csv** - Defines the undirected edges between nodes.
 
+### Using Sample Data
+
+For quick testing, we have provided two sample files in this repository:
+
+- `Sample_variables.csv`: Contains sample feature values for each node.
+- `Sample_edges.csv`: Defines sample undirected edges between nodes.
+
+These sample files allow you to run the model without needing the full dataset. Simply place `Sample_variables.csv` and `Sample_edges.csv` in the `./data/` directory, or adjust the file paths in the code to point to the sample files.
+
 ## Installation and Requirements
 
 1. Clone the repository:
